@@ -36,13 +36,13 @@ def main():
 
     # create variables and set values for:
     # location
-
+    location = "SHL 125"
     # time
-
+    time = "MW 10:30A – 12:50P"
     # quarter
-
+    quarter = "Spring 2019"
     # item - bonus points if you define item as a number
-
+    item = "Item 6485, section A"
     # section - bonus points if you use "A" as the value
     
     # print the output
@@ -50,18 +50,19 @@ def main():
     
     # print section heading - replace <name> with your name - no angle brackets. 
     # Ex: Bill's Output
-    print("<name>'s Output")
+    print("Alissa's Output")
     # print the title - copy the code above
-
+    print("\tTitle:\t\t", classTitle, sep="")
     # print the location
-
+    print("\tLocation:\t", location, sep="")
     # print the time
-
+    print("\tTime:\t\t", time, sep="")
     # print the quarter
-
+    print("\tQuarter:\t", quarter, sep="")
     # print item/section
-
+    print("\tItem/Section:\t", item, sep="")
     # print a blank line
+    print()
 
 
 main()
